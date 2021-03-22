@@ -1,0 +1,37 @@
+
+body {
+  text-align: center;
+  background-color: #393f4d;
+  color: #d4d4dc;
+  /*
+     black: #1d1e22; */
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 4rem;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+
+.btn {
+  background-color: #feda6a;
+  border: 5px solid #404B69;
+  width: 125px;
+  height: 125px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.pressed {
+  opacity: 0.5;
+  border-color: #1d1e22;
+  box-shadow: #DBEDF3;
+}
+
+.gameOver {
+  background-color: red;
+}
